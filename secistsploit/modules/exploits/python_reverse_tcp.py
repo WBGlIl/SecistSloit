@@ -14,7 +14,7 @@ class Exploit(TCPClient):
         ),
         "references": (
              "www.ggsec.cn "
-             "www.secistsploit.com"
+             "www.secist.com"
         ),
 
     }
