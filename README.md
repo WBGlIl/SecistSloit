@@ -3,3 +3,5 @@
 https://github.com/threat9/routersploit
 
 未完待续
+https://github.com/threat9/routersploit/wiki
+参考他的相关文档
