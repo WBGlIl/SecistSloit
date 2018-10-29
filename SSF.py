@@ -19,8 +19,8 @@ LOGGER.addHandler(log_handler)
 
 
 def secistsploit():
-    rsf = secistsploitInterpreter()
-    rsf.start()
+    ssf = secistsploitInterpreter()
+    ssf.start()
 
 
 if __name__ == "__main__":
