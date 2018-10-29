@@ -130,7 +130,7 @@ class TCPClient(Exploit):
 
     target_protocol = Protocol.TCP
 
-    verbosity = OptBool(True, "Enable verbose output: true/false")
+    #verbosity = OptBool(True, "Enable verbose output: true/false")
 
     def tcp_create(self, target: str=None, port: int=None) -> TCPCli:
         """ Creates TCP client

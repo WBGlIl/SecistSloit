@@ -19,7 +19,7 @@ from secistsploit.core.exploit.utils import (
     import_exploit,
     stop_after,
     module_required,
-    MODULES_DIR,
+    MODULES_DIR
 )
 from secistsploit.core.exploit.printer import (
     print_info,
@@ -232,10 +232,10 @@ class secistsploitInterpreter(BaseInterpreter):
          |____/ \___|\___|_|___/\__|____/| .__/|_|\___/|_|\__|
            Exploitation Framework for    | |      by Demon
                                          |_|
-                即刻安全之漏洞利用框架之终极蛇皮上帝视角
 
 
-         Codename   : 蛤蟆皮
+
+         Codename   : 即刻安全漏洞利用框架
          Version    : 1.0
          Demon      : http://www.ggsec.cn
          secist     : http://www.secist.com
@@ -244,7 +244,7 @@ class secistsploitInterpreter(BaseInterpreter):
 
 
 """.format(exploits_count=self.modules_count["exploits"],
-           listener_count=self.modules_count["listener"])
+           listener_count=self.modules_count["listener"],)
 
     def __parse_prompt(self):
         raw_prompt_default_template = "\001\033[4m\002{host}\001\033[0m\002 > "
@@ -328,7 +328,7 @@ class secistsploitInterpreter(BaseInterpreter):
 
     @module_required
     def command_run(self, *args, **kwargs):
-        print_status("Running module...")
+        #print_status("Running module...")
         try:
             self.current_module.run()
         except KeyboardInterrupt:
