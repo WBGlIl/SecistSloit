@@ -1,0 +1,7 @@
+.idea/
+# cache file
+__pycache__/
+*.py[cod]
+
+# log
+secistsploit_attack.log
