@@ -10,12 +10,12 @@ if sys.version_info.major < 3:
 
 from secistsploit.main import secistsploitInterpreter
 
-log_handler = logging.handlers.RotatingFileHandler(filename="secistsploit_attack.log", maxBytes=500000)
-log_formatter = logging.Formatter("%(asctime)s %(levelname)s %(name)s       %(message)s")
-log_handler.setFormatter(log_formatter)
-LOGGER = logging.getLogger()
-LOGGER.setLevel(logging.DEBUG)
-LOGGER.addHandler(log_handler)
+# log_handler = logging.handlers.RotatingFileHandler(filename="secistsploit_attack.log", maxBytes=500000)
+# log_formatter = logging.Formatter("%(asctime)s %(levelname)s %(name)s       %(message)s")
+# log_handler.setFormatter(log_formatter)
+# LOGGER = logging.getLogger()
+# LOGGER.setLevel(logging.DEBUG)
+# LOGGER.addHandler(log_handler)
 
 
 def secistsploit():
