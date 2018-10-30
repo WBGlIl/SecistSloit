@@ -2,6 +2,7 @@
 # cache file
 __pycache__/
 *.py[cod]
-
 # log
 secistsploit_attack.log
+# virtual environment
+venv/
