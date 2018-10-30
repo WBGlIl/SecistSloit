@@ -17,8 +17,7 @@ class Exploit(HTTPClient):
 
     }
 
-
-    target = OptIP("", "Target IPv4 or IPv6 address")
+    target = OptString("", "Target URl")
     port = OptPort(80, "Target HTTP port")
     def __init__(self):
         self.endianness = "<"
