@@ -213,11 +213,7 @@ class secistsploitInterpreter(BaseInterpreter):
         self.show_sub_commands = ("info", "options", "devices", "all", "encoders", "creds", "exploits", "scanners", "wordlists")
 
         self.global_commands = sorted(["use ", "exec ", "help", "exit", "show ", "search "])
-<<<<<<< HEAD
         self.module_commands = ["run", "back", "set ", "setg ", "check", "options"]
-=======
-        self.module_commands = ["run", "back", "set ", "setg ", "check"]
->>>>>>> 55bd184f30ea92642c808df8ded4adc294716724
         self.module_commands.extend(self.global_commands)
         self.module_commands.sort()
 
@@ -244,22 +240,11 @@ class secistsploitInterpreter(BaseInterpreter):
          Demon      : http://www.ggsec.cn
          secist     : http://www.secist.com
 
-<<<<<<< HEAD
-         Exploits: {exploits_count}   Listener: {listener_count}   Encoders: {encoders_count}
-
 
 """.format(exploits_count=self.modules_count["exploits"],
            listener_count=self.modules_count["listener"],
            encoders_count=self.modules_count["encoders"],)
-           
-=======
-         Exploits: {exploits_count}   Listener: {listener_count}
 
-
-""".format(exploits_count=self.modules_count["exploits"],
-           listener_count=self.modules_count["listener"],)
-
->>>>>>> 55bd184f30ea92642c808df8ded4adc294716724
     def __parse_prompt(self):
         raw_prompt_default_template = "\001\033[4m\002{host}\001\033[0m\002 > "
         raw_prompt_template = os.getenv("RSF_RAW_PROMPT", raw_prompt_default_template).replace('\\033', '\033')
@@ -428,11 +413,7 @@ class secistsploitInterpreter(BaseInterpreter):
 
     @module_required
     def _show_options(self, *args, **kwargs):
-<<<<<<< HEAD
         target_names = ["lhost", "lport", "ssl", "rhost", "rport", "LHOST", "LPOST", "RHOST", "RPORT"]
-=======
-        target_names = ["lhost", "lport", "ssl", "rhost", "rport", "lhost", "lport"]
->>>>>>> 55bd184f30ea92642c808df8ded4adc294716724
         target_opts = [opt for opt in self.current_module.options if opt in target_names]
         module_opts = [opt for opt in self.current_module.options if opt not in target_opts]
         headers = ("Name", "Current settings", "Description")
@@ -527,7 +508,7 @@ class secistsploitInterpreter(BaseInterpreter):
 
     def command_exec(self, *args, **kwargs):
         os.system(args[0])
-<<<<<<< HEAD
+
     def command_options(self, *args, **kwargs):
         target_names = ["lhost", "lport", "ssl", "rhost", "rport", "LHOST", "LPOST", "RHOST", "RPORT"]
         target_opts = [opt for opt in self.current_module.options if opt in target_names]
@@ -542,8 +523,6 @@ class secistsploitInterpreter(BaseInterpreter):
             print_table(headers, *self.get_opts(*module_opts))
 
         print_info()
-=======
->>>>>>> 55bd184f30ea92642c808df8ded4adc294716724
 
     def command_search(self, *args, **kwargs):
         keyword = args[0]
