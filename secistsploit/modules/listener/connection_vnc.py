@@ -16,7 +16,8 @@ class Exploit(TCPClient):
     __info__ = {
         "name": "connection_vnc",
         "\033[91m内容描述\033[0m": "connection模块叙述：\n"
-                        "1.runvnc.exe 运行后会启动vnc默认5900端口支持x86和x64\n",
+                        "1.runvnc.exe 运行后会启动vnc默认5900端口支持x64 x86忘了编译了先这样\n",
+						"2.连接密码是123456"
         "\033[91m参考链接\033[0m": (
              " \n"
         ),
