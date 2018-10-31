@@ -1,13 +1,10 @@
 # SecistSloit 
-![name](https://img.shields.io/badge/Name-SecistSloit-orange.svg)
-
+![name](https://img.shields.io/badge/%E6%A1%86%E6%9E%B6%E5%90%8D-SecistSloit-green.svg)![Notice](https://img.shields.io/badge/%E8%AD%A6%E5%91%8A-%E7%89%B9%E6%AD%A4%E8%AF%B4%E6%98%8E-red.svg)
 ## 敬告(Notice):
 
 + 不合理使用此脚本所提供的功能而造成的任何直接或者间接的后果及损失，  均由使用者本人负责，即刻安全以及创作者不为此承担任何责任。
  </br>Any direct or indirect consequences and losses arising from the abuse of the featuress provided by those scripts are due to the user himself, <b>[secist](www.secist.com)</b> and the author does not accept any responsibility.
  
-![Notice](https://img.shields.io/badge/%E8%AD%A6%E5%91%8A-%E7%89%B9%E6%AD%A4%E8%AF%B4%E6%98%8E-red.svg)
-
 本框架使用的是routersploit
 
 https://github.com/threat9/routersploit
