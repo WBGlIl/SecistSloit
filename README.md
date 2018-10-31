@@ -12,9 +12,24 @@
 
 https://github.com/threat9/routersploit
 
+![Usage](https://img.shields.io/badge/%E5%AE%89%E8%A3%85-%E4%BD%BF%E7%94%A8-green.svg)
+
+## 安装和使用（Installation && Usage）：
+
+- ```git clone https://github.com/demonsec666/SecistSloit.git```
+
+- ```cd SecistSloit-master/```
+
+- ```pip3 install -r requirements.txt```
+
+- ```python3 SSF.py```
+
+
+![SecistSloit](https://img.shields.io/badge/SecistSloit-%E6%A1%86%E6%9E%B6-green.svg)
+
 ## 例子 （Example）
 ```
-____            _     _   ____        _       _ _
+ ____            _     _   ____        _       _ _
 / ___|  ___  ___(_)___| |_/ ___| _ __ | | ___ (_) |_
 \___ \ / _ \/ __| / __| __\___ \| '_ \| |/ _ \| | __|
 ___) |  __/ (__| \__ \ |_ ___) | |_) | | (_) | | |_
