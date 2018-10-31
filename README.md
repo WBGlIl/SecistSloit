@@ -1,5 +1,7 @@
 # SecistSloit 
-![name](https://img.shields.io/badge/%E6%A1%86%E6%9E%B6%E5%90%8D-SecistSloit-green.svg)         ![Notice](https://img.shields.io/badge/%E8%AD%A6%E5%91%8A-%E7%89%B9%E6%AD%A4%E8%AF%B4%E6%98%8E-red.svg)
+![name](https://img.shields.io/badge/%E6%A1%86%E6%9E%B6%E5%90%8D-SecistSloit-green.svg)         
+
+![Notice](https://img.shields.io/badge/%E8%AD%A6%E5%91%8A-%E7%89%B9%E6%AD%A4%E8%AF%B4%E6%98%8E-red.svg)
 ## 敬告(Notice):
 
 + 不合理使用此脚本所提供的功能而造成的任何直接或者间接的后果及损失，  均由使用者本人负责，即刻安全以及创作者不为此承担任何责任。
