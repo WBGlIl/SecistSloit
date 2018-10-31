@@ -10,4 +10,4 @@ https://github.com/threat9/routersploit
 https://github.com/threat9/routersploit/wiki
 
 参考他的相关文档
-https://img.shields.io/badge/<name>-<SecistSloit>-<orange>.svg
+
