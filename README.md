@@ -6,7 +6,7 @@
 + 不合理使用此脚本所提供的功能而造成的任何直接或者间接的后果及损失，  均由使用者本人负责，即刻安全以及创作者不为此承担任何责任。
  </br>Any direct or indirect consequences and losses arising from the abuse of the featuress provided by those scripts are due to the user himself, <b>[secist](www.secist.com)</b> and the author does not accept any responsibility.
  
-![name](https://img.shields.io/badge/style-plastic-green.svg?logo=appveyor&longCache=true&Example=SecistSloit)
+![Notice](https://img.shields.io/badge/%E8%AD%A6%E5%91%8A-%E7%89%B9%E6%AD%A4%E8%AF%B4%E6%98%8E-red.svg)
 
 本框架使用的是routersploit
 
@@ -39,7 +39,7 @@ https://github.com/threat9/routersploit/wiki
 
 参考他的相关文档
 
-![test](https://img.shields.io/badge/style-plastic-green.svg?logo=appveyor&longCache=true&author=all)
+![author](https://img.shields.io/badge/%E6%84%9F%E8%B0%A2%E4%BB%A5%E4%B8%8B-%E4%BD%9C%E8%80%85-green.svg)
 
 感谢以下贡献者
 
