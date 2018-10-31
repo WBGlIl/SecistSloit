@@ -38,7 +38,7 @@ ___) |  __/ (__| \__ \ |_ ___) | |_) | | (_) | | |_
 
 
 Codename   : 即刻安全漏洞利用框架
-Version    : 1.0
+Version    : 0.1
 Demon      : http://www.ggsec.cn
 secist     : http://www.secist.com
 
