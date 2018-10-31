@@ -1,5 +1,5 @@
 # SecistSloit 
-![name](https://img.shields.io/badge/style-plastic-green.svg?logo=appveyor&longCache=true&name=SecistSloit)
+![name](https://img.shields.io/badge/Name-SecistSloit-orange.svg)
 
 ## 敬告(Notice):
 
