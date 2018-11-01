@@ -7,11 +7,11 @@ from core.Option import *
 from protocol.tcp.TCPClient import TCPClient
 platform = sys.platform
 if platform == "darwin":
-    path = os.getcwd() + '/secistsploit/data/vnc/vncviewer_linux'
+    path = os.getcwd() + '/data/vnc/vncviewer_linux'
 elif platform == "linux":
-    path = os.getcwd() + '/secistsploit/data/vnc/vncviewer_linux'
+    path = os.getcwd() + '/data/vnc/vncviewer_linux'
 elif platform == "windows":
-    path = os.getcwd() + '/secistsploit/data/vnc/vncviewer_win.exe'
+    path = os.getcwd() + '/data/vnc/vncviewer_win.exe'
 
 
 class Exploit(TCPClient):
@@ -37,7 +37,7 @@ class Exploit(TCPClient):
         RPORT = self.rport
         ip = " " + RHOST + ":"
         if TARGET == "Windows":
-            file = os.getcwd() + '/secistsploit/data/vnc/runvnc.exe'
+            file = os.getcwd() + '/data/vnc/runvnc.exe'
             shutil.copy(file, os.getcwd())
             print("\033[92m[+]\033[0m  客户端输出路径: "+os.getcwd() + "/runvnc.exe \n")
         yes = input("\033[94m[*]\033[0m  如果已经执行客户端请输入yes:  ")
